@@ -109,8 +109,8 @@ jobs:
     - name: Archive Application
       uses: actions/upload-artifact@v2
       with:
-        name: Conductor.app.tar.gz
-        path: target/release/bundle/osx/Conductor.app.tar.gz
+        name: Conductor.app.aarm64.tar.gz
+        path: target/release/bundle/osx/Conductor.app.aarm64.tar.gz
   fmt:
     runs-on: ubuntu-latest
     steps:
